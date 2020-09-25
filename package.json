@@ -1,0 +1,26 @@
+{
+    "name": "oblivion",
+    "displayName": "Oblivion",
+    "description": "Based on Eclipse's and Spyder's Oblivion themes with some adjustments and changes.",
+    "version": "0.0.2",
+    "publisher": "Educorreia932",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Oblivion",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Oblivion-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/npm/cli.git"
+      }
+}
