@@ -1,26 +1,31 @@
 {
-    "name": "oblivion",
-    "displayName": "Oblivion",
-    "description": "Based on Eclipse's and Spyder's Oblivion themes with some adjustments and changes.",
-    "version": "0.0.2",
-    "publisher": "Educorreia932",
-    "engines": {
-        "vscode": "^1.49.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Oblivion",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Oblivion-color-theme.json"
-            }
-        ]
-    },
-    "repository": {
-        "type" : "git",
-        "url" : "https://github.com/npm/cli.git"
-      }
+	"name": "oblivion",
+	"displayName": "Oblivion",
+	"description": "Based on Eclipse's and Spyder's Oblivion themes with some adjustments and changes.",
+	"version": "0.0.3",
+	"publisher": "Educorreia932",
+	"engines": {
+		"vscode": "^1.49.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Oblivion",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Oblivion-color-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Educorreia932/Oblivion-VS-Code-Theme.git"
+	},
+	"__metadata": {
+		"id": "13f3ddfa-0388-4065-9231-2600394491eb",
+		"publisherId": "d3759324-11b1-44f6-9f22-afeeff394c9d",
+		"publisherDisplayName": "Eduardo Correia"
+	}
 }
