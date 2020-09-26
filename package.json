@@ -27,5 +27,6 @@
 		"id": "13f3ddfa-0388-4065-9231-2600394491eb",
 		"publisherId": "d3759324-11b1-44f6-9f22-afeeff394c9d",
 		"publisherDisplayName": "Eduardo Correia"
-	}
+	},
+	"publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
