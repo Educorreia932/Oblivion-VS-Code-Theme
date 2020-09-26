@@ -3,6 +3,8 @@
     "type": "dark",
     "tokenColors": [
         {
+            "name": "Editor",
+            "scope": "editor.foreground",
             "settings": {
                 "foreground": "#D8D8D8"
             }
@@ -25,6 +27,13 @@
         {
             "name": "Number",
             "scope": "constant.numeric",
+            "settings": {
+                "foreground": "#7FB347"
+            }
+        },
+        {
+            "name": "Number Foreground",
+            "scope": "symbolIcon.numberForeground",
             "settings": {
                 "foreground": "#7FB347"
             }
