@@ -1,7 +1,46 @@
 {
     "name": "Oblivion",
     "type": "dark",
+    "colors": {
+        "editor.background": "#1E1E1E",
+        "editorCursor.foreground": "#F8F8F0",
+        "editor.foreground": "#D8D8D8",
+        "editorWhitespace.foreground": "#3B3A32",
+        "editor.lineHighlightBackground": "#3E3D32",
+        "editor.selectionBackground": "#49483E"
+    },
     "tokenColors": [
+        {
+            "scope": "strong",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+			"scope": "header",
+			"settings": {
+				"foreground": "#000080"
+			}
+		},
+        {
+			"scope": "markup.bold",
+			"settings": {
+				"fontStyle": "bold",
+			}
+		},
+		{
+			"scope": "markup.heading",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
         {
             "name": "Editor",
             "scope": "editor.foreground",
@@ -169,7 +208,6 @@
             "name": "Invalid",
             "scope": "invalid",
             "settings": {
-                "fontStyle": "",
                 "foreground": "#F8F8F0"
             }
         },
@@ -179,14 +217,6 @@
             "settings": {
                 "foreground": "#F8F8F0"
             }
-        }
-    ],
-    "colors": {
-        "editor.background": "#1E1E1E",
-        "editorCursor.foreground": "#F8F8F0",
-        "editor.foreground": "#D8D8D8",
-        "editorWhitespace.foreground": "#3B3A32",
-        "editor.lineHighlightBackground": "#3E3D32",
-        "editor.selectionBackground": "#49483E"
-    }
+        },      
+    ]
 }
